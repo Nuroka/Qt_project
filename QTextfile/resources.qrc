@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/new/files">
+        <file>resource/about.png</file>
+        <file>resource/arrow_redo.png</file>
+        <file>resource/arrow_undo.png</file>
+        <file>resource/cancel.png</file>
+        <file>resource/color.png</file>
+        <file>resource/copy.png</file>
+        <file>resource/cut.png</file>
+        <file>resource/find.png</file>
+        <file>resource/font.png</file>
+        <file>resource/help.png</file>
+        <file>resource/new.png</file>
+        <file>resource/open.png</file>
+        <file>resource/paste.png</file>
+        <file>resource/save.png</file>
+        <file>resource/saveas.png</file>
+        <file>resource/select_all.png</file>
+        <file>resource/text_align_center.png</file>
+        <file>resource/text_align_justify.png</file>
+        <file>resource/text_align_left.png</file>
+        <file>resource/text_align_right.png</file>
+        <file>resource/text_bold.png</file>
+        <file>resource/text_italic.png</file>
+        <file>resource/text_replace.png</file>
+        <file>resource/text_strikethrough.png</file>
+        <file>resource/text_underline.png</file>
+        <file>resource/zoom_in.png</file>
+        <file>resource/zoom_out.png</file>
+    </qresource>
+</RCC>
