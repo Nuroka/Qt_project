@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/RobotArm/">
+    <file alias="Constants.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/imports/RobotArm/Constants.qml</file>
+  </qresource>
+</RCC>
+

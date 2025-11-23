@@ -1,0 +1,8 @@
+-I
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug
+-I
+/home/ssafy/Qt/6.10.0/gcc_64/qml
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/Backend/.qt/rcc/qmake_Backend.qrc
+--module
+Backend

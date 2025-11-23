@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qtquickcontrols2.conf">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/qtquickcontrols2.conf</file>
+  </qresource>
+</RCC>
+

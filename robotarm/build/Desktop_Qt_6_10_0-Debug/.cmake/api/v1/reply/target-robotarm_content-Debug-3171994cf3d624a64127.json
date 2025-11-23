@@ -1,0 +1,3286 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "content/librobotarm_content.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_library",
+			"qt_add_library",
+			"add_dependencies",
+			"_qt_internal_write_deferred_qmlls_build_ini_file",
+			"qt6_add_qml_module",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"target_link_libraries",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_target_qml_sources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"content/CMakeLists.txt",
+			"/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1086:EVAL",
+			"CMakeLists.txt",
+			"/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:846:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 2884,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2770,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2857,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1375,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 717,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 970,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 3107,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 976,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 3107,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 618,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 835,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 4270,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4065,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1546,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4231,
+				"parent" : 16
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 887,
+				"parent" : 9
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2589,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2132,
+				"parent" : 23
+			},
+			{
+				"command" : 16,
+				"file" : 2,
+				"line" : 960,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 3715,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 1868,
+				"parent" : 27
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3578,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3771,
+				"parent" : 25
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 3863,
+				"parent" : 25
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 56
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2589,
+				"parent" : 57
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2132,
+				"parent" : 58
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 3881,
+				"parent" : 25
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 60
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2589,
+				"parent" : 61
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2132,
+				"parent" : 62
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 3917,
+				"parent" : 25
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 64
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2589,
+				"parent" : 65
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2132,
+				"parent" : 66
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 68
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 871,
+				"parent" : 69
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2257,
+				"parent" : 70
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content"
+				},
+				{
+					"path" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/robotarm_content_autogen/include"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				33,
+				34,
+				35
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "RobotArm::@46bb62423c33885a93c3"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "robotarm_content_copy_qml::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "robotarm_content_copy_res::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "robotarm_content_autogen::@73a38b9e525c9c2ae262"
+		},
+		{
+			"id" : "robotarm_content_autogen_timestamp_deps::@73a38b9e525c9c2ae262"
+		}
+	],
+	"id" : "robotarm_content::@73a38b9e525c9c2ae262",
+	"name" : "robotarm_content",
+	"nameOnDisk" : "librobotarm_content.a",
+	"paths" : 
+	{
+		"build" : "content",
+		"source" : "content"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				4,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				40,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				424,
+				425,
+				426
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				41
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/robotarm_content_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meta_types/qt6robotarm_content_metatypes.json.gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/robotarm_content_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_qmake_content.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"path" : "content/App.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_App_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"path" : "content/LabeledSlider.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_LabeledSlider.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "content/MainScreen.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 33,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_MainScreen.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"path" : "content/NodeIndicator.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_NodeIndicator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"path" : "content/RoboticArm.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_RoboticArm.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"path" : "content/Toggle.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 39,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_Toggle.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "content/DobotArm.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_DobotArm.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"path" : "content/meshes/magicianBase/MagicianBase.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianBase/MagicianBase_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "content/meshes/magicianLink1/MagicianLink1.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink1/MagicianLink1_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"path" : "content/meshes/magicianLink2/MagicianLink2.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink2/MagicianLink2_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "content/meshes/magicianLink3/MagicianLink3.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink3/MagicianLink3_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "content/meshes/magicianLink4/MagicianLink4.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink4/MagicianLink4_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"path" : "content/meshes/magicianLink4_default/MagicianLink4_default.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink4_default/MagicianLink4_default_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 54,
+			"path" : "content/meshes/magicianSuctionCup/MagicianSuctionCup.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianSuctionCup/MagicianSuctionCup_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_robotarm_content_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 63,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_robotarm_content_raw_res_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 67,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_robotarm_content_raw_qml_0_extra_qmldirs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qmake_content.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/robotarm_content_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/robotarm_content_raw_res_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/fonts/fonts.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/maps/qt.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/arm.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/base.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/forearm.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_grab_b.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_grab_b_hinge_1.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_grab_b_hinge_2.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_grab_t.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_grab_t_hinge_1.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_grab_t_hinge_2.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/hand_hinge.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/root.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/circle_010_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/circle_011_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/circle_012_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/circle_013_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/circle_014_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/object_4_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/object_4_003_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/object_4_004_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/object_4_005_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/object_4_010_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/object_5_182_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/plane_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/plane_004_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianBase/meshes/plane_005_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/circle_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/circle_009_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_001_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_003_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_004_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_005_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_006_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_007_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_008_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_009_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_010_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_011_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_012_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_013_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_014_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_015_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_016_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_017_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_018_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_019_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_020_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_021_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_022_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_023_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_024_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_025_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_026_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_027_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_028_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_029_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_030_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_031_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_032_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_033_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_034_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_035_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_036_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_037_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_038_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_039_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_040_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_041_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_042_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_043_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_044_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_045_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_046_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_047_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_048_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_049_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_050_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_051_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_052_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_053_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_054_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_055_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_056_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_057_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_058_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_059_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_060_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_061_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_062_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_063_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_064_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_065_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_066_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_067_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_068_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_070_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_071_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_072_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_073_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_074_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_076_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_077_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_078_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_079_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_080_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_081_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_082_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_083_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_084_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_085_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_086_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_087_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_088_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_089_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_090_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_091_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_092_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_093_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_094_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_095_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_096_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_097_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_098_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_099_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_100_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_101_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_102_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_103_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_104_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_105_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_106_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_107_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_108_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_109_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_110_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_111_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_112_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_113_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_114_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_115_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_116_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_117_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_118_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_119_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_120_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_121_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_122_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_123_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_124_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_125_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_126_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_127_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_128_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_129_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_130_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_131_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_132_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_133_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_134_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_135_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_136_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_137_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink1/meshes/object_2_138_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_010_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_011_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_012_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_013_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_014_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_015_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/circle_016_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_001_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_003_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_004_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_005_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_006_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_007_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_008_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_009_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_010_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_011_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_012_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_013_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_014_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_015_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_016_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_017_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_018_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_019_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_020_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_021_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_022_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_023_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_024_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_025_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_026_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_027_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_028_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_029_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_030_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_031_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_032_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_033_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_034_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_035_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_036_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_037_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_038_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_039_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_040_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_041_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_042_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_043_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_044_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_045_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_046_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_047_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_048_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_049_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_050_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_051_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_052_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_053_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_054_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_055_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_056_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_057_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_058_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_059_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_060_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_061_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_062_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_063_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_064_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_065_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_066_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_067_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_068_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_069_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_070_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_071_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_072_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_073_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_074_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_075_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_076_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_077_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_078_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_079_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_080_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_081_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_082_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_083_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_084_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_085_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_086_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_087_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_088_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_089_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_090_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_091_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_092_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_093_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_094_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_095_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_096_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_097_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_098_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_099_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_100_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_101_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_102_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_103_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_104_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_105_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_106_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_107_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_108_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_109_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_110_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_111_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_112_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_113_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_114_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_115_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_116_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_117_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_118_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_119_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_120_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_121_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_122_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_123_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_124_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_125_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_126_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_127_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_128_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_129_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_130_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_131_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_132_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_133_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_134_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_135_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_136_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_137_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_138_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_139_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_140_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_141_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_142_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_143_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_144_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_145_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_146_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_147_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_148_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_149_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_150_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_151_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_152_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_153_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_154_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_155_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_156_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_157_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_158_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_159_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_160_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_161_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_162_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_163_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_164_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_165_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/object_1_166_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink2/meshes/plane_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/circle_017_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/circle_018_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/link3_cap_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/node86_______210_A_1_PRT_001_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/node86_______210_A_1_PRT_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/object_419_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink3/meshes/plane_004_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink4/meshes/dobot_Magician_mit_TOOLS_4_Achse__stl_002_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink4/meshes/node86_______210_A_1_PRT_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink4/meshes/node93_______230_A_1_PRT_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianLink4_default/meshes/node93_______230_A_1_PRT_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "content/meshes/magicianSuctionCup/meshes/dobot_Magician_mit_TOOLS_Saugnapf__stl_001_mesh.mesh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/robotarm_content_raw_qml_0_extra_qmldirs.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianBase/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink1/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink2/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink3/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink4/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink4_default/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianSuctionCup/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/robotarm_content_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meta_types/qt6robotarm_content_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/robotarm_content_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_qmake_content.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_App_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_LabeledSlider.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_MainScreen.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_NodeIndicator_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_RoboticArm.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_Toggle.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_DobotArm.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianBase/MagicianBase_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink1/MagicianLink1_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink2/MagicianLink2_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink3/MagicianLink3_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink4/MagicianLink4_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianLink4_default/MagicianLink4_default_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.rcc/qmlcache/robotarm_content_meshes/magicianSuctionCup/MagicianSuctionCup_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_robotarm_content_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_robotarm_content_raw_res_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qrc_robotarm_content_raw_qml_0_extra_qmldirs.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/robotarm_content_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/content/meta_types/robotarm_content_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 15,
+			"path" : "/home/ssafy/Qt/6.10.0/gcc_64/metatypes/qt6qml_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 15,
+			"path" : "/home/ssafy/Qt/6.10.0/gcc_64/metatypes/qt6core_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 15,
+			"path" : "/home/ssafy/Qt/6.10.0/gcc_64/metatypes/qt6network_metatypes.json",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,16 @@
+-I
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports
+-I
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug
+-I
+/home/ssafy/Qt/6.10.0/gcc_64/qml
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/qmake_content.qrc
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/robotarm_content_raw_qml_0.qrc
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/robotarm_content_raw_res_0.qrc
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/.qt/rcc/robotarm_content_raw_qml_0_extra_qmldirs.qrc
+--module
+content

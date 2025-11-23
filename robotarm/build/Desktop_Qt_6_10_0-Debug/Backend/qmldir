@@ -1,0 +1,7 @@
+module Backend
+linktarget backendmoduleplugin
+optional plugin backendmoduleplugin
+classname BackendPlugin
+typeinfo backendmodule.qmltypes
+prefer :/Backend/
+

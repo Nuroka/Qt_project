@@ -1,0 +1,214 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "imports/RobotArm/CMakeFiles/RobotArm_resources_1.dir/./.qt/rcc/qrc_qmake_RobotArm_init.cpp.o"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_module",
+			"set_property",
+			"_qt_internal_copy_dependency_properties",
+			"__qt_internal_propagate_object_library",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"imports/RobotArm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 887,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2589,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2079,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2123,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2021,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2967,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2092,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2967,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2095,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2967,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports/RobotArm"
+				},
+				{
+					"path" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/imports/RobotArm"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports/RobotArm/RobotArm_autogen/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/ssafy/Qt/6.10.0/gcc_64/mkspecs/linux-g++"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "RobotArm_resources_1::@46bb62423c33885a93c3",
+	"name" : "RobotArm_resources_1",
+	"paths" : 
+	{
+		"build" : "imports/RobotArm",
+		"source" : "imports/RobotArm"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_10_0-Debug/imports/RobotArm/.qt/rcc/qrc_qmake_RobotArm_init.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

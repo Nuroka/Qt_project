@@ -1,0 +1,758 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ce9f1909f7e0de9a546f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						27,
+						48,
+						49,
+						50,
+						51
+					]
+				},
+				{
+					"build" : "Backend",
+					"jsonFile" : "directory-Backend-Debug-282b1a511d18597f1f6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Backend",
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47
+					]
+				},
+				{
+					"build" : "imports",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-imports-Debug-615074570c3908afab44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "imports"
+				},
+				{
+					"build" : "imports/RobotArm",
+					"jsonFile" : "directory-imports.RobotArm-Debug-6107e2380fff6b66d885.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "imports/RobotArm",
+					"targetIndexes" : 
+					[
+						0,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"build" : "content",
+					"jsonFile" : "directory-content-Debug-61a361743d88a3b42c45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "content",
+					"targetIndexes" : 
+					[
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "RobotArm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm-Debug-8c2b1d76fab8f65dab0d.json",
+					"name" : "RobotArm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp-Debug-d7fe56eafa8388a407c7.json",
+					"name" : "RobotArmApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_autogen-Debug-cad5f8dd863fbe3c9dbb.json",
+					"name" : "RobotArmApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_autogen_timestamp_deps-Debug-fd542a4aa3fe709d1134.json",
+					"name" : "RobotArmApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_copy_qml-Debug-75e1c947d5d4706c657a.json",
+					"name" : "RobotArmApp_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_copy_res-Debug-6afbb072f85b6fc32ad0.json",
+					"name" : "RobotArmApp_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_qmlimportscan-Debug-6ddf85aa0abe8addd0e9.json",
+					"name" : "RobotArmApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_qmllint-Debug-50773ea92052133ecf89.json",
+					"name" : "RobotArmApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_qmllint_json-Debug-c483d26a9552219c8d67.json",
+					"name" : "RobotArmApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_qmllint_module-Debug-5546668012c58575e243.json",
+					"name" : "RobotArmApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RobotArmApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RobotArmApp_qmltyperegistration-Debug-51b2cb6d18eeaad68227.json",
+					"name" : "RobotArmApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_autogen::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_autogen-Debug-a5fe744befb3407f29aa.json",
+					"name" : "RobotArm_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_autogen_timestamp_deps::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_autogen_timestamp_deps-Debug-4fb9c73e723bea67241f.json",
+					"name" : "RobotArm_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_copy_qml::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_copy_qml-Debug-ffcb88704fcf48f646ee.json",
+					"name" : "RobotArm_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_copy_res::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_copy_res-Debug-19f703c128a3d961740d.json",
+					"name" : "RobotArm_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_qmllint::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_qmllint-Debug-fa15ff698035f893c3d4.json",
+					"name" : "RobotArm_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_qmllint_json::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_qmllint_json-Debug-95528d92275af3eeae9b.json",
+					"name" : "RobotArm_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_qmllint_module::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_qmllint_module-Debug-ea5185e1c83b389f9628.json",
+					"name" : "RobotArm_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_qmltyperegistration::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_qmltyperegistration-Debug-0e9745519ef9efa90c9c.json",
+					"name" : "RobotArm_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_resources_1::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_resources_1-Debug-050276b4a21185458a7d.json",
+					"name" : "RobotArm_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArm_resources_2::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArm_resources_2-Debug-fba80d3111edca90a859.json",
+					"name" : "RobotArm_resources_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArmplugin::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArmplugin-Debug-9ed3662aedcedc51f3bd.json",
+					"name" : "RobotArmplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArmplugin_autogen::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArmplugin_autogen-Debug-71b62cd1ed91da70759a.json",
+					"name" : "RobotArmplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArmplugin_autogen_timestamp_deps::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArmplugin_autogen_timestamp_deps-Debug-b5322c6ab90754f020a4.json",
+					"name" : "RobotArmplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArmplugin_init::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArmplugin_init-Debug-5ac36b856b523e7b58a2.json",
+					"name" : "RobotArmplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArmplugin_init_autogen::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArmplugin_init_autogen-Debug-85c668f7d6c3ab327cc9.json",
+					"name" : "RobotArmplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RobotArmplugin_init_autogen_timestamp_deps::@46bb62423c33885a93c3",
+					"jsonFile" : "target-RobotArmplugin_init_autogen_timestamp_deps-Debug-ee0c812b7fcbd14193c3.json",
+					"name" : "RobotArmplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-cf5356d98ef3c39080ac.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-all_qmllint-Debug-2986c06dcc1a35baa557.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint_json::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-all_qmllint_json-Debug-d5a0f227dc437081288c.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint_module::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-all_qmllint_module-Debug-e3ddee99897a2ea9bd2f.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmltyperegistrations::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-2cd64f84af746227b222.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule-Debug-a8f2096dff85555728e7.json",
+					"name" : "backendmodule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_autogen::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_autogen-Debug-124dcc5594ba2d1a957d.json",
+					"name" : "backendmodule_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_autogen_timestamp_deps::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_autogen_timestamp_deps-Debug-b4d35d6c2144171696dd.json",
+					"name" : "backendmodule_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_copy_qml::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_copy_qml-Debug-43723e0b54cda99809ae.json",
+					"name" : "backendmodule_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_copy_res::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_copy_res-Debug-e1eafbb29924c7a98e5d.json",
+					"name" : "backendmodule_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_qmllint::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_qmllint-Debug-97fc3dff9a9c723fb595.json",
+					"name" : "backendmodule_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_qmllint_json::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_qmllint_json-Debug-6729a26a65da1bde1a0d.json",
+					"name" : "backendmodule_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_qmllint_module::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_qmllint_module-Debug-6beae7196d83c50f6145.json",
+					"name" : "backendmodule_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_qmltyperegistration::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_qmltyperegistration-Debug-5c59db99632ab0760506.json",
+					"name" : "backendmodule_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmodule_resources_1::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmodule_resources_1-Debug-d1eb2ccee988ca538568.json",
+					"name" : "backendmodule_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmoduleplugin::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmoduleplugin-Debug-e1036fe306916f4f92cb.json",
+					"name" : "backendmoduleplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmoduleplugin_autogen::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmoduleplugin_autogen-Debug-f49e69e95ef863850133.json",
+					"name" : "backendmoduleplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmoduleplugin_autogen_timestamp_deps::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmoduleplugin_autogen_timestamp_deps-Debug-5437aafac28837192a3a.json",
+					"name" : "backendmoduleplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmoduleplugin_init::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmoduleplugin_init-Debug-c288229866fa7748cfc4.json",
+					"name" : "backendmoduleplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmoduleplugin_init_autogen::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmoduleplugin_init_autogen-Debug-023fb623a052baeae003.json",
+					"name" : "backendmoduleplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backendmoduleplugin_init_autogen_timestamp_deps::@f80fd7e8befdbf2a81ef",
+					"jsonFile" : "target-backendmoduleplugin_init_autogen_timestamp_deps-Debug-22d0af3ca994c930874b.json",
+					"name" : "backendmoduleplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-e4c281cb86a465b1e359.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_RobotArmApp_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_RobotArmApp_aotstats_target-Debug-ea7cc198ac4cbe85c2ff.json",
+					"name" : "module_RobotArmApp_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_RobotArm_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_RobotArm_aotstats_target-Debug-6096049f9f9c0089dd84.json",
+					"name" : "module_RobotArm_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_robotarm_content_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_robotarm_content_aotstats_target-Debug-c65c4ae6cefa8afe529d.json",
+					"name" : "module_robotarm_content_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content-Debug-3171994cf3d624a64127.json",
+					"name" : "robotarm_content",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_autogen::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_autogen-Debug-afea54fb6a732c80faa4.json",
+					"name" : "robotarm_content_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_autogen_timestamp_deps::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_autogen_timestamp_deps-Debug-98b6dcd686162a107d35.json",
+					"name" : "robotarm_content_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_copy_qml::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_copy_qml-Debug-03be12ac4e14af03731c.json",
+					"name" : "robotarm_content_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_copy_res::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_copy_res-Debug-2258e902e2e5e7e733d0.json",
+					"name" : "robotarm_content_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_qmllint::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_qmllint-Debug-cd8324ed224fc774e3c7.json",
+					"name" : "robotarm_content_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_qmllint_json::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_qmllint_json-Debug-e2a29a52f8a91669ce39.json",
+					"name" : "robotarm_content_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_qmllint_module::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_qmllint_module-Debug-50809b289a0c40026061.json",
+					"name" : "robotarm_content_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_qmltyperegistration::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_qmltyperegistration-Debug-755b0faeaba269c6e372.json",
+					"name" : "robotarm_content_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_resources_1::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_resources_1-Debug-c9d59d326f26bf4b6fa5.json",
+					"name" : "robotarm_content_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_resources_2::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_resources_2-Debug-ec1aca8800b158fc480e.json",
+					"name" : "robotarm_content_resources_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_resources_3::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_resources_3-Debug-ff9b04452bdd4dda6a98.json",
+					"name" : "robotarm_content_resources_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_content_resources_4::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_content_resources_4-Debug-35b60059ffb8cffbc6f2.json",
+					"name" : "robotarm_content_resources_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_contentplugin::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_contentplugin-Debug-b8bb2276655e0dfdb7dd.json",
+					"name" : "robotarm_contentplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_contentplugin_autogen::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_contentplugin_autogen-Debug-082fa994811d8f4f92df.json",
+					"name" : "robotarm_contentplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_contentplugin_autogen_timestamp_deps::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_contentplugin_autogen_timestamp_deps-Debug-3168b733042ea1013d77.json",
+					"name" : "robotarm_contentplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_contentplugin_init::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_contentplugin_init-Debug-cd9755be2409b9abd886.json",
+					"name" : "robotarm_contentplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_contentplugin_init_autogen::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_contentplugin_init_autogen-Debug-3f0b96fe52f505cc6450.json",
+					"name" : "robotarm_contentplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robotarm_contentplugin_init_autogen_timestamp_deps::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-robotarm_contentplugin_init_autogen_timestamp_deps-Debug-da6300b2a6ef8e79538f.json",
+					"name" : "robotarm_contentplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug",
+		"source" : "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

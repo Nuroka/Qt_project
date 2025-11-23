@@ -1,0 +1,39 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 799,
+                            "functionName": "width",
+                            "line": 8,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 42,
+                            "functionName": "height",
+                            "line": 9,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 33,
+                            "functionName": "fill",
+                            "line": 18,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/App.qml"
+                }
+            ],
+            "moduleId": "content(robotarm_content)"
+        }
+    ]
+}

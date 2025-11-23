@@ -1,0 +1,8 @@
+module RobotArm
+linktarget RobotArmplugin
+optional plugin RobotArmplugin
+classname RobotArmPlugin
+typeinfo RobotArm.qmltypes
+prefer :/RobotArm/
+singleton Constants 1.0 Constants.qml
+

@@ -1,0 +1,47 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 60,
+                            "functionName": "implicitWidth",
+                            "line": 17,
+                            "message": "Cannot retrieve a non-object type by ID: toggleText"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 15,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 22,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 23,
+                            "message": "Could not find property \"verticalCenter\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 27,
+                            "message": "Could not find property \"left\"."
+                        }
+                    ],
+                    "filePath": "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/Toggle.ui.qml"
+                }
+            ],
+            "moduleId": "content(robotarm_content)"
+        }
+    ]
+}

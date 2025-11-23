@@ -1,0 +1,47 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 173,
+                            "functionName": "rotation",
+                            "line": 19,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method quaternion, returning QVariant -> QQuaternion stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 98,
+                            "functionName": "position",
+                            "line": 23,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector3d, returning QVariant -> QVector3D stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 85,
+                            "functionName": "scale",
+                            "line": 24,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector3d, returning QVariant -> QVector3D stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 57,
+                            "functionName": "materials",
+                            "line": 26,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/meshes/magicianLink4_default/MagicianLink4_default.qml"
+                }
+            ],
+            "moduleId": "content(robotarm_content)"
+        }
+    ]
+}

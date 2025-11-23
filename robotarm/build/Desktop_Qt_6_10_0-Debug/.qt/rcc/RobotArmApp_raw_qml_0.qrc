@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Main/">
+    <file alias="Main.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/Main.qml</file>
+  </qresource>
+</RCC>
+

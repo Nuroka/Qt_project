@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/content/">
+    <file alias="meshes/magicianBase/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianBase/qmldir</file>
+    <file alias="meshes/magicianLink1/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink1/qmldir</file>
+    <file alias="meshes/magicianLink2/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink2/qmldir</file>
+    <file alias="meshes/magicianLink3/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink3/qmldir</file>
+    <file alias="meshes/magicianLink4/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink4/qmldir</file>
+    <file alias="meshes/magicianLink4_default/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianLink4_default/qmldir</file>
+    <file alias="meshes/magicianSuctionCup/qmldir">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianSuctionCup/qmldir</file>
+  </qresource>
+</RCC>
+

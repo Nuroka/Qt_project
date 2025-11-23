@@ -1,0 +1,10 @@
+-I
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports
+-I
+/home/ssafy/Qt/6.10.0/gcc_64/qml
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports/RobotArm/.qt/rcc/qmake_RobotArm.qrc
+--resource
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports/RobotArm/.qt/rcc/RobotArm_raw_qml_0.qrc
+--module
+RobotArm

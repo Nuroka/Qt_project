@@ -1,0 +1,22 @@
+module content
+linktarget robotarm_contentplugin
+optional plugin robotarm_contentplugin
+classname contentPlugin
+typeinfo robotarm_content.qmltypes
+depends RobotArm
+prefer :/content/
+App 1.0 App.qml
+LabeledSlider 1.0 LabeledSlider.ui.qml
+MainScreen 1.0 MainScreen.ui.qml
+NodeIndicator 1.0 NodeIndicator.qml
+RoboticArm 1.0 RoboticArm.ui.qml
+Toggle 1.0 Toggle.ui.qml
+DobotArm 1.0 DobotArm.ui.qml
+MagicianBase 1.0 meshes/magicianBase/MagicianBase.qml
+MagicianLink1 1.0 meshes/magicianLink1/MagicianLink1.qml
+MagicianLink2 1.0 meshes/magicianLink2/MagicianLink2.qml
+MagicianLink3 1.0 meshes/magicianLink3/MagicianLink3.qml
+MagicianLink4 1.0 meshes/magicianLink4/MagicianLink4.qml
+MagicianLink4_default 1.0 meshes/magicianLink4_default/MagicianLink4_default.qml
+MagicianSuctionCup 1.0 meshes/magicianSuctionCup/MagicianSuctionCup.qml
+

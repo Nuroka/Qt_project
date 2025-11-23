@@ -1,0 +1,15 @@
+-rootPath
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm
+-cmake-output
+-output-file
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/.qt/qml_imports/RobotArmApp_build.cmake
+-importPath
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/Main
+-importPath
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug
+-importPath
+/home/ssafy/Qt/6.10.0/gcc_64/qml
+-qrcFiles
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/.qt/rcc/configuration.qrc
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/.qt/rcc/qmake_Main.qrc
+/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/.qt/rcc/RobotArmApp_raw_qml_0.qrc

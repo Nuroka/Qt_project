@@ -1,0 +1,9 @@
+RobotArm_autogen/timestamp: \
+	/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+	/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp \
+	/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
+	/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+	/home/ssafy/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+	/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/imports/RobotArm/RobotArmplugin_RobotArmPlugin_in.cpp \
+	/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/imports/RobotArm/CMakeLists.txt \
+	/home/ssafy/Qt/Tools/CMake/bin/cmake
