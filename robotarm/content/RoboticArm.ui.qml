@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick3D
-import QtQuick3D.Helpers // ★ 이 줄을 꼭 추가하세요!
+import QtQuick3D.Helpers
+
 import "meshes/magicianBase"
 import "meshes/magicianLink1"
 import "meshes/magicianLink2"
@@ -21,7 +22,7 @@ Node {
     property real link4_length:   0.  // Head 오프셋
     property real ee_length:      0   // End Effector 길이
 
-    property real modelScale: 1100
+    property real modelScale: 1800
     scale: Qt.vector3d(modelScale, modelScale, modelScale)
 
     // -----------------------------
@@ -31,7 +32,7 @@ Node {
     property int rotation2: 0   // J3: Forearm Pitch
     property int rotation3: 0   // J2: Rear Arm Pitch
     property int rotation4: 0   // J1: Base Rotation
-    property int clawsAngle: 0
+    property int suctioncup: 0
 
     // -----------------------------
     // 3. 위치 추적용 Alias (NodeIndicator 연결)
@@ -80,13 +81,6 @@ Node {
                             y:0.15
                             z:0
 
-                            // [시각화] 이 Joint의 회전축을 보여줍니다.
-                            //AxisHelper {
-                                //scale: Qt.vector3d(0.001, 0.001, 0.001) // 크기 조절
-                                //enableAxisLines: true
-                                //gridOpacity: 0
-                            //}
-
                             // [Link 3 Mesh] 그래픽
                             MagicianLink3 {
                                 id: link3
@@ -98,27 +92,19 @@ Node {
                             Node {
                                 id: joint4_Offset
                                 // Link 3의 길이만큼 앞으로 이동 (Link 3 끝부분으로 이동)
-                                //x: rootNode.link3_length
 
                                 // 4. Joint 4의 "회전" 노드 (새로운 축)
                                 Node {
                                     id: joint4_Axis
-                                    eulerRotation.z: rootNode.rotation1
                                     x: 0.15
                                     y: 0.075 * -1
                                     z: 0
-
-                                    AxisHelper {
-                                        scale: Qt.vector3d(0.001, 0.001, 0.001)
-                                        enableAxisLines: true
-                                        gridOpacity: 0
-                                    }
+                                    eulerRotation.z: -rootNode.rotation2 - rootNode.rotation3
 
                                     MagicianLink4 {
                                         id: link4
                                         x: 0.15 * -1 + 0.03 * -1
                                         y: 0.075 +0.15 * -1
-
                                         z: 0
                                         MagicianSuctionCup {
                                             id: suctionCup

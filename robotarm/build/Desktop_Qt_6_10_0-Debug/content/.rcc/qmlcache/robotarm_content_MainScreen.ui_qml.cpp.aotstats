@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 103,
                             "functionName": "mobile",
                             "line": 16,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 48,
                             "functionName": "horizontal",
                             "line": 17,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 37,
                             "functionName": "sliderWidth",
                             "line": 18,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 31,
                             "functionName": "buttonRowWidth",
                             "line": 19,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 35,
+                            "durationMicroseconds": 31,
                             "functionName": "theme",
                             "line": 14,
                             "message": "Cannot load property checked from ."
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 17,
+                            "durationMicroseconds": 14,
                             "functionName": "rotation1Angle",
                             "line": 33,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 10,
+                            "durationMicroseconds": 9,
                             "functionName": "rotation2Angle",
                             "line": 34,
                             "message": "Cannot retrieve a non-object type by ID: rotation2Slider"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 10,
+                            "durationMicroseconds": 9,
                             "functionName": "rotation3Angle",
                             "line": 35,
                             "message": "Cannot retrieve a non-object type by ID: rotation3Slider"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 9,
+                            "durationMicroseconds": 8,
                             "functionName": "rotation4Angle",
                             "line": 36,
                             "message": "Cannot retrieve a non-object type by ID: rotation4Slider"
@@ -80,15 +80,15 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 12,
-                            "functionName": "clawsAngle",
+                            "durationMicroseconds": 10,
+                            "functionName": "suctionCup",
                             "line": 37,
                             "message": "Cannot load property checked from ."
                         },
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 40,
                             "functionName": "top",
                             "line": 43,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 45,
+                            "durationMicroseconds": 33,
                             "functionName": "bottom",
                             "line": 49,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 36,
                             "functionName": "preferredWidth",
                             "line": 53,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 26,
                             "functionName": "preferredWidth",
                             "line": 63,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 25,
                             "functionName": "preferredWidth",
                             "line": 73,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 25,
                             "functionName": "preferredWidth",
                             "line": 83,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 34,
                             "functionName": "bottom",
                             "line": 94,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 31,
                             "functionName": "bottom",
                             "line": 104,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 63,
+                            "durationMicroseconds": 45,
                             "functionName": "preferredWidth",
                             "line": 110,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 25,
                             "functionName": "minimumWidth",
                             "line": 111,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 26,
                             "functionName": "target",
                             "line": 115,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 38,
+                            "durationMicroseconds": 29,
                             "functionName": "onClicked",
                             "line": 116,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 43,
                             "functionName": "preferredWidth",
                             "line": 128,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 25,
                             "functionName": "minimumWidth",
                             "line": 129,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 27,
+                            "durationMicroseconds": 21,
                             "functionName": "target",
                             "line": 133,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 28,
                             "functionName": "onClicked",
                             "line": 134,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 57,
+                            "durationMicroseconds": 44,
                             "functionName": "preferredWidth",
                             "line": 146,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 25,
                             "functionName": "minimumWidth",
                             "line": 147,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 27,
+                            "durationMicroseconds": 25,
                             "functionName": "target",
                             "line": 151,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 26,
                             "functionName": "onClicked",
                             "line": 152,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 57,
+                            "durationMicroseconds": 46,
                             "functionName": "preferredWidth",
                             "line": 164,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 24,
                             "functionName": "minimumWidth",
                             "line": 165,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 22,
                             "functionName": "target",
                             "line": 169,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 36,
                             "functionName": "onClicked",
                             "line": 170,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 25,
+                            "durationMicroseconds": 23,
                             "functionName": "camera",
                             "line": 184,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 22,
+                            "durationMicroseconds": 18,
                             "functionName": "environment",
                             "line": 261,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 18,
                             "functionName": "fill",
                             "line": 182,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 38,
+                            "durationMicroseconds": 30,
                             "functionName": "rotation1",
                             "line": 218,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 26,
                             "functionName": "rotation2",
                             "line": 219,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 25,
                             "functionName": "rotation3",
                             "line": 220,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 24,
                             "functionName": "rotation4",
                             "line": 221,
                             "message": ""
@@ -336,15 +336,15 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 30,
-                            "functionName": "clawsAngle",
+                            "durationMicroseconds": 24,
+                            "functionName": "suctioncup",
                             "line": 222,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 37,
                             "functionName": "scenePosition",
                             "line": 227,
                             "message": ""
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 11,
+                            "durationMicroseconds": 9,
                             "functionName": "isFocused",
                             "line": 228,
                             "message": "Cannot load property hasFocus from ."
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 26,
                             "functionName": "label",
                             "line": 229,
                             "message": ""
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 38,
                             "functionName": "scenePosition",
                             "line": 234,
                             "message": ""
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 18,
                             "functionName": "isFocused",
                             "line": 235,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 7,
+                            "durationMicroseconds": 6,
                             "functionName": "label",
                             "line": 236,
                             "message": "Cannot retrieve a non-object type by ID: rotation1Slider"
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 37,
                             "functionName": "scenePosition",
                             "line": 241,
                             "message": ""
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 15,
+                            "durationMicroseconds": 13,
                             "functionName": "isFocused",
                             "line": 242,
                             "message": "Cannot retrieve a non-object type by ID: rotation2Slider"
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 36,
                             "functionName": "scenePosition",
                             "line": 248,
                             "message": ""
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 15,
+                            "durationMicroseconds": 13,
                             "functionName": "isFocused",
                             "line": 249,
                             "message": "Cannot retrieve a non-object type by ID: rotation3Slider"
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 14,
+                            "durationMicroseconds": 6,
                             "functionName": "label",
                             "line": 250,
                             "message": "Cannot retrieve a non-object type by ID: rotation3Slider"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 36,
                             "functionName": "scenePosition",
                             "line": 255,
                             "message": ""
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 15,
+                            "durationMicroseconds": 13,
                             "functionName": "isFocused",
                             "line": 256,
                             "message": "Cannot retrieve a non-object type by ID: rotation4Slider"
@@ -464,7 +464,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 30,
                             "functionName": "antialiasingQuality",
                             "line": 265,
                             "message": ""
@@ -472,7 +472,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 24,
                             "functionName": "antialiasingMode",
                             "line": 266,
                             "message": ""
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 26,
                             "functionName": "text",
                             "line": 272,
                             "message": ""
@@ -488,7 +488,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 45,
+                            "durationMicroseconds": 37,
                             "functionName": "top",
                             "line": 273,
                             "message": ""
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 98,
+                            "durationMicroseconds": 112,
                             "functionName": "when",
                             "line": 341,
                             "message": ""
@@ -512,7 +512,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 25,
                             "functionName": "target",
                             "line": 344,
                             "message": ""
@@ -536,7 +536,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 24,
                             "functionName": "target",
                             "line": 354,
                             "message": ""
@@ -544,7 +544,7 @@
                         {
                             "codegenResult": 1,
                             "column": 31,
-                            "durationMicroseconds": 6,
+                            "durationMicroseconds": 8,
                             "functionName": "left",
                             "line": 355,
                             "message": "Skipped code generation for binding for property of type QQmlScriptString; nothing to do."

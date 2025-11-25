@@ -34,7 +34,7 @@ Pane {
         rotation2Angle: rotation2Slider.value
         rotation3Angle: rotation3Slider.value
         rotation4Angle: rotation4Slider.value
-        clawsAngle: clawToggle.checked ? 0 : 90
+        suctionCup: clawToggle.checked ? 0 : 90
     }
 
     Toggle {
@@ -219,7 +219,7 @@ Pane {
                 rotation2: backend.rotation2Angle
                 rotation3: backend.rotation3Angle
                 rotation4: backend.rotation4Angle
-                clawsAngle: backend.clawsAngle
+                suctioncup: backend.suctionCup
             }
         }
 

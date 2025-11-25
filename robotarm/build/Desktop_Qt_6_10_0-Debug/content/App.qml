@@ -12,7 +12,7 @@ Window {
     minimumHeight: 600
 
     visible: true
-    title: "RobotArm"
+    title: "로봇팔 디지털 트윈"
 
     MainScreen {
         anchors.fill: parent

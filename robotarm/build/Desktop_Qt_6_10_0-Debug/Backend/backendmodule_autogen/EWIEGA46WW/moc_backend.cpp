@@ -47,13 +47,13 @@ template <> constexpr inline auto Backend::qt_create_metaobjectdata<qt_meta_tag_
         "rot2AngleChanged",
         "rot3AngleChanged",
         "rot4AngleChanged",
-        "clawsAngleChanged",
+        "suctionCupChanged",
         "statusChanged",
         "rotation1Angle",
         "rotation2Angle",
         "rotation3Angle",
         "rotation4Angle",
-        "clawsAngle",
+        "suctionCup",
         "status"
     };
 
@@ -66,7 +66,7 @@ template <> constexpr inline auto Backend::qt_create_metaobjectdata<qt_meta_tag_
         QtMocHelpers::SignalData<void()>(6, 4, QMC::AccessPublic, QMetaType::Void),
         // Signal 'rot4AngleChanged'
         QtMocHelpers::SignalData<void()>(7, 4, QMC::AccessPublic, QMetaType::Void),
-        // Signal 'clawsAngleChanged'
+        // Signal 'suctionCupChanged'
         QtMocHelpers::SignalData<void()>(8, 4, QMC::AccessPublic, QMetaType::Void),
         // Signal 'statusChanged'
         QtMocHelpers::SignalData<void()>(9, 4, QMC::AccessPublic, QMetaType::Void),
@@ -80,7 +80,7 @@ template <> constexpr inline auto Backend::qt_create_metaobjectdata<qt_meta_tag_
         QtMocHelpers::PropertyData<int>(12, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 2),
         // property 'rotation4Angle'
         QtMocHelpers::PropertyData<int>(13, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 3),
-        // property 'clawsAngle'
+        // property 'suctionCup'
         QtMocHelpers::PropertyData<int>(14, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 4),
         // property 'status'
         QtMocHelpers::PropertyData<QString>(15, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Bindable, 5),
@@ -113,7 +113,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 1: _t->rot2AngleChanged(); break;
         case 2: _t->rot3AngleChanged(); break;
         case 3: _t->rot4AngleChanged(); break;
-        case 4: _t->clawsAngleChanged(); break;
+        case 4: _t->suctionCupChanged(); break;
         case 5: _t->statusChanged(); break;
         default: ;
         }
@@ -127,7 +127,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
             return;
         if (QtMocHelpers::indexOfMethod<void (Backend::*)()>(_a, &Backend::rot4AngleChanged, 3))
             return;
-        if (QtMocHelpers::indexOfMethod<void (Backend::*)()>(_a, &Backend::clawsAngleChanged, 4))
+        if (QtMocHelpers::indexOfMethod<void (Backend::*)()>(_a, &Backend::suctionCupChanged, 4))
             return;
         if (QtMocHelpers::indexOfMethod<void (Backend::*)()>(_a, &Backend::statusChanged, 5))
             return;
@@ -139,7 +139,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 1: *reinterpret_cast<int*>(_v) = _t->rotation2Angle(); break;
         case 2: *reinterpret_cast<int*>(_v) = _t->rotation3Angle(); break;
         case 3: *reinterpret_cast<int*>(_v) = _t->rotation4Angle(); break;
-        case 4: *reinterpret_cast<int*>(_v) = _t->clawsAngle(); break;
+        case 4: *reinterpret_cast<int*>(_v) = _t->suctionCup(); break;
         case 5: *reinterpret_cast<QString*>(_v) = _t->status(); break;
         default: break;
         }
@@ -151,7 +151,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 1: _t->setRot2Angle(*reinterpret_cast<int*>(_v)); break;
         case 2: _t->setRot3Angle(*reinterpret_cast<int*>(_v)); break;
         case 3: _t->setRot4Angle(*reinterpret_cast<int*>(_v)); break;
-        case 4: _t->setClawsAngle(*reinterpret_cast<int*>(_v)); break;
+        case 4: _t->setSuctionCup(*reinterpret_cast<int*>(_v)); break;
         default: break;
         }
     }
@@ -225,7 +225,7 @@ void Backend::rot4AngleChanged()
 }
 
 // SIGNAL 4
-void Backend::clawsAngleChanged()
+void Backend::suctionCupChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
 }

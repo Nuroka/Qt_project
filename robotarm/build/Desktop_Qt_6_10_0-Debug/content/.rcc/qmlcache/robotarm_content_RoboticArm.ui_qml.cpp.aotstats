@@ -8,105 +8,97 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 155,
                             "functionName": "scale",
-                            "line": 25,
+                            "line": 26,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector3d, returning QVariant -> QVector3D stored as QVariant"
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 45,
-                            "functionName": "y",
-                            "line": 56,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 34,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 48,
                             "functionName": "y",
                             "line": 57,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 26,
+                            "functionName": "y",
+                            "line": 58,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 38,
+                            "durationMicroseconds": 25,
                             "functionName": "z",
-                            "line": 65,
+                            "line": 66,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 25,
                             "functionName": "z",
-                            "line": 78,
+                            "line": 79,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 38,
                             "functionName": "x",
-                            "line": 93,
+                            "line": 87,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 27,
                             "functionName": "y",
-                            "line": 94,
+                            "line": 88,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 27,
                             "functionName": "y",
-                            "line": 108,
+                            "line": 100,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 54,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 65,
                             "functionName": "z",
+                            "line": 102,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 63,
+                            "functionName": "x",
                             "line": 106,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 91,
-                            "functionName": "scale",
-                            "line": 112,
-                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector3d, returning QVariant -> QVector3D stored as QVariant"
-                        },
-                        {
                             "codegenResult": 0,
                             "column": 44,
-                            "durationMicroseconds": 64,
-                            "functionName": "x",
-                            "line": 119,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 44,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 39,
                             "functionName": "y",
-                            "line": 120,
+                            "line": 107,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 48,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 27,
                             "functionName": "x",
-                            "line": 125,
+                            "line": 111,
                             "message": ""
                         }
                     ],

@@ -47,11 +47,11 @@ Module {
             index: 3
         }
         Property {
-            name: "clawsAngle"
+            name: "suctionCup"
             type: "int"
-            read: "clawsAngle"
-            write: "setClawsAngle"
-            notify: "clawsAngleChanged"
+            read: "suctionCup"
+            write: "setSuctionCup"
+            notify: "suctionCupChanged"
             index: 4
         }
         Property {
@@ -67,7 +67,7 @@ Module {
         Signal { name: "rot2AngleChanged" }
         Signal { name: "rot3AngleChanged" }
         Signal { name: "rot4AngleChanged" }
-        Signal { name: "clawsAngleChanged" }
+        Signal { name: "suctionCupChanged" }
         Signal { name: "statusChanged" }
     }
 }

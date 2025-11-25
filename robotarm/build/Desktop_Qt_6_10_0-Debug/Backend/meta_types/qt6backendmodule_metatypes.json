@@ -127,15 +127,15 @@
                         "final": false,
                         "index": 4,
                         "lineNumber": 21,
-                        "name": "clawsAngle",
-                        "notify": "clawsAngleChanged",
-                        "read": "clawsAngle",
+                        "name": "suctionCup",
+                        "notify": "suctionCupChanged",
+                        "read": "suctionCup",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
                         "type": "int",
                         "user": false,
-                        "write": "setClawsAngle"
+                        "write": "setSuctionCup"
                     },
                     {
                         "bindable": "bindableStatus",
@@ -188,7 +188,7 @@
                         "access": "public",
                         "index": 4,
                         "lineNumber": 51,
-                        "name": "clawsAngleChanged",
+                        "name": "suctionCupChanged",
                         "returnType": "void"
                     },
                     {
