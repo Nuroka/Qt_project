@@ -13,6 +13,14 @@ Pane {
     id: root
     Material.theme: darkModeToggle.checked ? Material.Dark : Material.Light
 
+    // 외부(MainScreenPage.qml)에서 이 컨트롤들에 접근하기 위한 별칭
+    property alias rotation1Slider: rotation1Slider
+    property alias rotation2Slider: rotation2Slider
+    property alias rotation3Slider: rotation3Slider
+    property alias clawToggle: clawToggle
+    // ---------------------------------------------------------
+
+    property Backend backendProp: null
     readonly property bool mobile: Qt.platform.os === "android"
     readonly property bool horizontal: width > height
     property real sliderWidth: width * 0.15
@@ -27,15 +35,6 @@ Pane {
     width: 800
     height: 600
     state: "mobileHorizontal"
-
-    Backend {
-        id: backend
-        rotation1Angle: rotation1Slider.value
-        rotation2Angle: rotation2Slider.value
-        rotation3Angle: rotation3Slider.value
-        rotation4Angle: rotation4Slider.value
-        suctionCup: clawToggle.checked ? 0 : 90
-    }
 
     Toggle {
         id: darkModeToggle
@@ -54,8 +53,12 @@ Pane {
             Layout.minimumWidth: 160
             labelText: "Rotation 1"
             from: -90
-            to: 90
-            value: 60
+            to: 89
+            // Backend의 rotation2Angle을 항상 따라가도록 (ROS 수신 데이터 반영)
+            value: backendProp.rotation1Angle
+
+            // 사용자가 슬라이더를 움직이면 로컬 3D 모델 즉시 업데이트
+            onMoved: backendProp.rotation1Angle = value
         }
 
         LabeledSlider {
@@ -63,9 +66,13 @@ Pane {
             Layout.preferredWidth: root.sliderWidth
             Layout.minimumWidth: 160
             labelText: "Rotation 2"
-            from: -135
-            to: 135
-            value: 45
+            from: -90
+            to: 89
+            // Backend의 rotation2Angle을 항상 따라가도록 (ROS 수신 데이터 반영)
+            value: backendProp.rotation2Angle
+
+            // 사용자가 슬라이더를 움직이면 로컬 3D 모델 즉시 업데이트
+            onMoved: backendProp.rotation2Angle = value
         }
 
         LabeledSlider {
@@ -74,18 +81,11 @@ Pane {
             Layout.minimumWidth: 160
             labelText: "Rotation 3"
             from: -90
-            to: 90
-            value: 45
+            to: 89
+            value: backendProp.rotation3Angle
+            onMoved: backendProp.rotation3Angle = value
         }
 
-        LabeledSlider {
-            id: rotation4Slider
-            Layout.preferredWidth: root.sliderWidth
-            Layout.minimumWidth: 160
-            labelText: "Rotation 4"
-            from: -180
-            to: 180
-        }
     }
 
     Toggle {
@@ -114,10 +114,13 @@ Pane {
             Connections {
                 target: pose1
                 function onClicked() {
-                    rotation1Slider.value = 30
-                    rotation2Slider.value = 60
-                    rotation3Slider.value = 90
-                    rotation4Slider.value = 145
+                    rotation1Slider.value = 60
+                    rotation2Slider.value = 90
+                    rotation3Slider.value = 145
+
+                    backendProp.rotation1Angle = 60
+                    backendProp.rotation2Angle = 90
+                    backendProp.rotation3Angle = 145
                 }
             }
         }
@@ -132,10 +135,13 @@ Pane {
             Connections {
                 target: pose2
                 function onClicked() {
-                    rotation1Slider.value = 60
+                    rotation1Slider.value = 45
                     rotation2Slider.value = 45
-                    rotation3Slider.value = 45
-                    rotation4Slider.value = 60
+                    rotation3Slider.value = 60
+
+                    backendProp.rotation1Angle = 45
+                    backendProp.rotation2Angle = 45
+                    backendProp.rotation3Angle = 60
                 }
             }
         }
@@ -150,10 +156,13 @@ Pane {
             Connections {
                 target: pose3
                 function onClicked() {
-                    rotation1Slider.value = -90
                     rotation2Slider.value = -60
                     rotation3Slider.value = -45
                     rotation4Slider.value = -180
+
+                    backendProp.rotation2Angle = -60
+                    backendProp.rotation3Angle = -45
+                    backendProp.rotation4Angle = -180
                 }
             }
         }
@@ -171,8 +180,12 @@ Pane {
                     rotation1Slider.value = 0
                     rotation2Slider.value = 0
                     rotation3Slider.value = 0
-                    rotation4Slider.value = 0
                     clawToggle.checked = false
+
+                    backendProp.rotation1Angle = 0
+                    backendProp.rotation2Angle = 0
+                    backendProp.rotation3Angle = 0
+                    backendProp.suctionCup = 90
                 }
             }
         }
@@ -207,19 +220,18 @@ Pane {
 
             PerspectiveCamera {
                 id: camera
-                x: 1050
-                y: 375
+                x: 1500
+                y: 500
                 z: -40
                 pivot.x: 200
                 eulerRotation.y: 85
             }
             RoboticArm {
                 id: roboArm
-                rotation1: backend.rotation1Angle
-                rotation2: backend.rotation2Angle
-                rotation3: backend.rotation3Angle
-                rotation4: backend.rotation4Angle
-                suctioncup: backend.suctionCup
+                rotation1: backendProp.rotation1Angle
+                rotation2: backendProp.rotation2Angle
+                rotation3: backendProp.rotation3Angle
+                suctioncup: backendProp.suctionCup
             }
         }
 
@@ -231,30 +243,23 @@ Pane {
         }
 
         NodeIndicator {
-            scenePosition: roboArm.hand_hinge_position
+            scenePosition: roboArm.arm_position
             isFocused: rotation1Slider.activeFocus
             label: rotation1Slider.labelText
-            size: 40
-        }
-
-        NodeIndicator {
-            scenePosition: roboArm.arm_position
-            isFocused: rotation2Slider.activeFocus
-            label: rotation2Slider.labelText
             size: 50
         }
 
         NodeIndicator {
             scenePosition: roboArm.forearm_position
-            isFocused: rotation3Slider.activeFocus
-            label: rotation3Slider.labelText
+            isFocused: rotation2Slider.activeFocus
+            label: rotation2Slider.labelText
             size: 60
         }
 
         NodeIndicator {
             scenePosition: roboArm.root_position
-            isFocused: rotation4Slider.activeFocus
-            label: rotation4Slider.labelText
+            isFocused: rotation3Slider.activeFocus
+            label: rotation3Slider.labelText
             size: 60
         }
 
@@ -269,7 +274,7 @@ Pane {
 
     Label {
         id: robotStatus
-        text: backend.status
+        text: backendProp.status
         anchors.top: parent.top
         font.italic: true
         anchors.horizontalCenter: parent.horizontalCenter

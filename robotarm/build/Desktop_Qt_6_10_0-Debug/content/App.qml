@@ -14,7 +14,7 @@ Window {
     visible: true
     title: "로봇팔 디지털 트윈"
 
-    MainScreen {
+    MainScreenPage {
         anchors.fill: parent
     }
 }

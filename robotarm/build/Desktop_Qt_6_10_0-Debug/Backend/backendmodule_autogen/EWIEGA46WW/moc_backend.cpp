@@ -49,6 +49,19 @@ template <> constexpr inline auto Backend::qt_create_metaobjectdata<qt_meta_tag_
         "rot4AngleChanged",
         "suctionCupChanged",
         "statusChanged",
+        "onSocketConnected",
+        "onSocketReadyRead",
+        "onSocketErrorOccurred",
+        "QAbstractSocket::SocketError",
+        "socketError",
+        "connectToRos",
+        "host",
+        "port",
+        "moveDobotTo",
+        "j1",
+        "j2",
+        "j3",
+        "j4",
         "rotation1Angle",
         "rotation2Angle",
         "rotation3Angle",
@@ -70,20 +83,36 @@ template <> constexpr inline auto Backend::qt_create_metaobjectdata<qt_meta_tag_
         QtMocHelpers::SignalData<void()>(8, 4, QMC::AccessPublic, QMetaType::Void),
         // Signal 'statusChanged'
         QtMocHelpers::SignalData<void()>(9, 4, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'onSocketConnected'
+        QtMocHelpers::SlotData<void()>(10, 4, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onSocketReadyRead'
+        QtMocHelpers::SlotData<void()>(11, 4, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onSocketErrorOccurred'
+        QtMocHelpers::SlotData<void(QAbstractSocket::SocketError)>(12, 4, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 13, 14 },
+        }}),
+        // Method 'connectToRos'
+        QtMocHelpers::MethodData<void(const QString &, quint16)>(15, 4, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 16 }, { QMetaType::UShort, 17 },
+        }}),
+        // Method 'moveDobotTo'
+        QtMocHelpers::MethodData<void(double, double, double, double)>(18, 4, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Double, 19 }, { QMetaType::Double, 20 }, { QMetaType::Double, 21 }, { QMetaType::Double, 22 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'rotation1Angle'
-        QtMocHelpers::PropertyData<int>(10, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 0),
+        QtMocHelpers::PropertyData<int>(23, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 0),
         // property 'rotation2Angle'
-        QtMocHelpers::PropertyData<int>(11, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 1),
+        QtMocHelpers::PropertyData<int>(24, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 1),
         // property 'rotation3Angle'
-        QtMocHelpers::PropertyData<int>(12, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 2),
+        QtMocHelpers::PropertyData<int>(25, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 2),
         // property 'rotation4Angle'
-        QtMocHelpers::PropertyData<int>(13, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 3),
+        QtMocHelpers::PropertyData<int>(26, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable, 3),
         // property 'suctionCup'
-        QtMocHelpers::PropertyData<int>(14, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 4),
+        QtMocHelpers::PropertyData<int>(27, QMetaType::Int, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 4),
         // property 'status'
-        QtMocHelpers::PropertyData<QString>(15, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Bindable, 5),
+        QtMocHelpers::PropertyData<QString>(28, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Bindable, 5),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -115,7 +144,24 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 3: _t->rot4AngleChanged(); break;
         case 4: _t->suctionCupChanged(); break;
         case 5: _t->statusChanged(); break;
+        case 6: _t->onSocketConnected(); break;
+        case 7: _t->onSocketReadyRead(); break;
+        case 8: _t->onSocketErrorOccurred((*reinterpret_cast<std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
+        case 9: _t->connectToRos((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<quint16>>(_a[2]))); break;
+        case 10: _t->moveDobotTo((*reinterpret_cast<std::add_pointer_t<double>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<double>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<double>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<double>>(_a[4]))); break;
         default: ;
+        }
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+        case 8:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QAbstractSocket::SocketError >(); break;
+            }
+            break;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
@@ -182,14 +228,14 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 11;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
-            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

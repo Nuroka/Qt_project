@@ -49,6 +49,7 @@ qt6_add_qml_module(robotarm_content
         RoboticArm.ui.qml
         Toggle.ui.qml
         DobotArm.ui.qml
+        MainScreenPage.qml
         meshes/magicianBase/MagicianBase.qml
         meshes/magicianLink1/MagicianLink1.qml
         meshes/magicianLink2/MagicianLink2.qml

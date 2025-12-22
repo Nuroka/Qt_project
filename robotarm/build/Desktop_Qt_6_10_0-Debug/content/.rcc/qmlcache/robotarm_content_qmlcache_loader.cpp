@@ -54,6 +54,13 @@ namespace _content_DobotArm_ui_0x2e_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _content_MainScreenPage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _content_meshes_magicianBase_MagicianBase_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -124,6 +131,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/content/RoboticArm.ui.qml"), &QmlCacheGeneratedCode::_content_RoboticArm_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/content/Toggle.ui.qml"), &QmlCacheGeneratedCode::_content_Toggle_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/content/DobotArm.ui.qml"), &QmlCacheGeneratedCode::_content_DobotArm_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/content/MainScreenPage.qml"), &QmlCacheGeneratedCode::_content_MainScreenPage_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/content/meshes/magicianBase/MagicianBase.qml"), &QmlCacheGeneratedCode::_content_meshes_magicianBase_MagicianBase_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/content/meshes/magicianLink1/MagicianLink1.qml"), &QmlCacheGeneratedCode::_content_meshes_magicianLink1_MagicianLink1_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/content/meshes/magicianLink2/MagicianLink2.qml"), &QmlCacheGeneratedCode::_content_meshes_magicianLink2_MagicianLink2_qml::unit);

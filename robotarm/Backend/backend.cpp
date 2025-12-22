@@ -3,6 +3,7 @@
 
 #include "backend.h"
 #include <QTransform>
+#include <QDebug>
 
 Backend::Backend(QObject *parent) : QObject(parent)
 {
@@ -24,8 +25,63 @@ Backend::Backend(QObject *parent) : QObject(parent)
     connect(&m_rotation2Angle, &AnimatedParam::valueChanged, this, &Backend::detectCollision);
     connect(&m_rotation3Angle, &AnimatedParam::valueChanged, this, &Backend::detectCollision);
     connect(&m_rotation4Angle, &AnimatedParam::valueChanged, this, &Backend::detectCollision);
+
+    connect(&m_socket, &QTcpSocket::connected,this, &Backend::onSocketConnected);
+    connect(&m_socket, &QTcpSocket::readyRead,this, &Backend::onSocketReadyRead);
+    connect(&m_socket, &QTcpSocket::errorOccurred,this, &Backend::onSocketErrorOccurred);
 }
 
+void Backend::connectToRos(const QString &host, quint16 port)
+{
+    qDebug() << "Connecting to ROS TCP bridge:" << host << port;
+    m_socket.connectToHost(host, port);
+}
+
+void Backend::onSocketConnected()
+{
+    qDebug() << "Connected to ROS TCP bridge.";
+}
+
+void Backend::onSocketErrorOccurred(QAbstractSocket::SocketError socketError)
+{
+    Q_UNUSED(socketError)
+    qWarning() << "Socket error:" << m_socket.errorString();
+}
+
+// JSON 라인 수신 처리
+void Backend::onSocketReadyRead()
+{
+    m_buffer.append(m_socket.readAll());
+
+    int newlineIndex = -1;
+    while ((newlineIndex = m_buffer.indexOf('\n')) != -1) {
+        QByteArray line = m_buffer.left(newlineIndex);
+        m_buffer.remove(0, newlineIndex + 1);
+
+        QByteArray trimmed = line.trimmed();
+        if (!trimmed.isEmpty()) {
+            processJsonLine(trimmed);
+        }
+    }
+}
+
+void Backend::processJsonLine(const QByteArray &line)
+{
+    QJsonParseError err;
+    QJsonDocument doc = QJsonDocument::fromJson(line, &err);
+    if (err.error != QJsonParseError::NoError || !doc.isObject()) {
+        qWarning() << "Failed to parse JSON from ROS:" << err.errorString() << line;
+        return;
+    }
+
+    QJsonObject obj = doc.object();
+
+    // ROS 쪽에서 보낸 j1~j4(deg)를 int로 넣어준다
+    //if (obj.contains("j1")) setRot1Angle(obj["j1"].toDouble());
+    //if (obj.contains("j2")) setRot2Angle(obj["j2"].toDouble());
+    //if (obj.contains("j3")) setRot3Angle(obj["j3"].toDouble());
+    //if (obj.contains("j4")) setRot4Angle(obj["j4"].toDouble());
+}
 int Backend::rotation1Angle() const
 {
     return m_rotation1Angle.value();
@@ -112,4 +168,33 @@ void Backend::detectCollision()
     QPolygon pol4 = t.mapToPolygon(QRect(-42, 0, 42, 180));
 
     m_isCollision.setValue(pol1.intersects(pol3) || pol1.intersects(pol4) || pol2.intersects(pol4));
+}
+
+void Backend::moveDobotTo(double j1, double j2, double j3, double j4)
+{
+    if (m_socket.state() != QAbstractSocket::ConnectedState) {
+        qWarning() << "Not connected to ROS bridge!";
+        return;
+    }
+
+    // JSON 객체 생성
+    QJsonObject json;
+    json["type"] = "move_joint";
+
+    QJsonArray target;
+    target.append(j1);
+    target.append(j2);
+    target.append(j3);
+    target.append(j4);
+
+    json["target"] = target;
+
+    // JSON -> String 변환 및 전송 (줄바꿈 포함)
+    QJsonDocument doc(json);
+    QByteArray data = doc.toJson(QJsonDocument::Compact) + "\n";
+
+    m_socket.write(data);
+    m_socket.flush();
+
+    qDebug() << "Sent command to Dobot:" << data;
 }

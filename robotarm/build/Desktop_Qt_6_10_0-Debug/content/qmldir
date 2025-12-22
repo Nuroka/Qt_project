@@ -12,6 +12,7 @@ NodeIndicator 1.0 NodeIndicator.qml
 RoboticArm 1.0 RoboticArm.ui.qml
 Toggle 1.0 Toggle.ui.qml
 DobotArm 1.0 DobotArm.ui.qml
+MainScreenPage 1.0 MainScreenPage.qml
 MagicianBase 1.0 meshes/magicianBase/MagicianBase.qml
 MagicianLink1 1.0 meshes/magicianLink1/MagicianLink1.qml
 MagicianLink2 1.0 meshes/magicianLink2/MagicianLink2.qml

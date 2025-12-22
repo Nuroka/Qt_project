@@ -16,6 +16,8 @@ set(src_and_dest_list
     "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/Toggle.ui.qml"
     "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/DobotArm.ui.qml"
     "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/DobotArm.ui.qml"
+    "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/MainScreenPage.qml"
+    "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/MainScreenPage.qml"
     "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/meshes/magicianBase/MagicianBase.qml"
     "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/content/meshes/magicianBase/MagicianBase.qml"
     "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/meshes/magicianLink1/MagicianLink1.qml"

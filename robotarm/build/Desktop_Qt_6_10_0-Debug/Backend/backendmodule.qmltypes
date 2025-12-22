@@ -8,7 +8,7 @@ import QtQuick.tooling 1.2
 Module {
     Component {
         file: "backend.h"
-        lineNumber: 13
+        lineNumber: 17
         name: "Backend"
         accessSemantics: "reference"
         prototype: "QObject"
@@ -69,5 +69,23 @@ Module {
         Signal { name: "rot4AngleChanged" }
         Signal { name: "suctionCupChanged" }
         Signal { name: "statusChanged" }
+        Method { name: "onSocketConnected" }
+        Method { name: "onSocketReadyRead" }
+        Method {
+            name: "onSocketErrorOccurred"
+            Parameter { name: "socketError"; type: "QAbstractSocket::SocketError" }
+        }
+        Method {
+            name: "connectToRos"
+            Parameter { name: "host"; type: "QString" }
+            Parameter { name: "port"; type: "ushort" }
+        }
+        Method {
+            name: "moveDobotTo"
+            Parameter { name: "j1"; type: "double" }
+            Parameter { name: "j2"; type: "double" }
+            Parameter { name: "j3"; type: "double" }
+            Parameter { name: "j4"; type: "double" }
+        }
     }
 }

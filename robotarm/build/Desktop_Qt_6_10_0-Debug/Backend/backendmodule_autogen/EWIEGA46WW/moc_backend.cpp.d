@@ -1,10 +1,15 @@
 /home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/Backend/backendmodule_autogen/EWIEGA46WW/moc_backend.cpp: /home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/Backend/backend.h \
   /home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/build/Desktop_Qt_6_10_0-Debug/Backend/backendmodule_autogen/moc_predefs.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QByteArray \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QJsonArray \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QJsonDocument \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QJsonObject \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QObject \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QProperty \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/QVariantAnimation \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/q17memory.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/q20functional.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/q20iterator.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/q20memory.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/q20type_traits.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/q20utility.h \
@@ -25,6 +30,9 @@
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qbytearraylist.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qcalendar.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qcborcommon.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qcborvalue.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qchar.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qcompare.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qcompare_impl.h \
@@ -38,8 +46,10 @@
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qcontiguouscache.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qdatastream.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qdatetime.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qdebug.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qeasingcurve.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qendian.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qexceptionhandling.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qflags.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qfloat16.h \
@@ -51,11 +61,18 @@
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qhash.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qiodevice.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qiodevicebase.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qiterable.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qiterator.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qjsonarray.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qjsondocument.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qjsonparseerror.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qjsonvalue.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qlatin1stringview.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qlist.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qlocale.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qlogging.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qmalloc.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qmap.h \
@@ -75,6 +92,7 @@
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qproperty.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qpropertyprivate.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qrefcount.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qregularexpression.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qscopedpointer.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qscopeguard.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qset.h \
@@ -82,6 +100,7 @@
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qshareddata_impl.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qsharedpointer.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qspan.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qstdlibdetection.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qstring.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qstringalgorithms.h \
@@ -119,13 +138,22 @@
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qtversionchecks.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qtypes.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qurl.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qutf8stringview.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/quuid.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qvariant.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qvariantanimation.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qxptype_traits.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/QTcpSocket \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/qabstractsocket.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/qhostaddress.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/qtcpsocket.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/qtnetwork-config.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/qtnetworkexports.h \
+  /home/ssafy/Qt/6.10.0/gcc_64/include/QtNetwork/qtnetworkglobal.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtQml/qqmlregistration.h \
   /home/ssafy/Qt/6.10.0/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
   /home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/Backend/animatedparam.h \
@@ -220,6 +248,7 @@
   /usr/include/c++/11/bits/unordered_set.h \
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/cassert \
   /usr/include/c++/11/cctype \
   /usr/include/c++/11/cerrno \
   /usr/include/c++/11/chrono \

@@ -1,0 +1,95 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 85,
+                            "functionName": "backendProp",
+                            "line": 18,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 113,
+                            "functionName": "onCompleted",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 21,
+                            "functionName": "target",
+                            "line": 27,
+                            "message": "cannot convert from MainScreen::rotation1Slider with type  to QObject"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 71,
+                            "functionName": "onPressedChanged",
+                            "line": 28,
+                            "message": "Cannot load property pressed from MainScreen::rotation1Slider with type ."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 11,
+                            "functionName": "target",
+                            "line": 41,
+                            "message": "cannot convert from MainScreen::rotation2Slider with type  to QObject"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 52,
+                            "functionName": "onPressedChanged",
+                            "line": 42,
+                            "message": "Cannot load property pressed from MainScreen::rotation2Slider with type ."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 9,
+                            "functionName": "target",
+                            "line": 55,
+                            "message": "cannot convert from MainScreen::rotation3Slider with type  to QObject"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 49,
+                            "functionName": "onPressedChanged",
+                            "line": 56,
+                            "message": "Cannot load property pressed from MainScreen::rotation3Slider with type ."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 40,
+                            "functionName": "target",
+                            "line": 69,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 47,
+                            "functionName": "value",
+                            "line": 71,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/MainScreenPage.qml"
+                }
+            ],
+            "moduleId": "content(robotarm_content)"
+        }
+    ]
+}

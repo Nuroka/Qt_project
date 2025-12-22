@@ -54,7 +54,51 @@
                     }
                 ],
                 "className": "Backend",
-                "lineNumber": 13,
+                "lineNumber": 17,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "host",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "port",
+                                "type": "quint16"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 51,
+                        "name": "connectToRos",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "j1",
+                                "type": "double"
+                            },
+                            {
+                                "name": "j2",
+                                "type": "double"
+                            },
+                            {
+                                "name": "j3",
+                                "type": "double"
+                            },
+                            {
+                                "name": "j4",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 52,
+                        "name": "moveDobotTo",
+                        "returnType": "void"
+                    }
+                ],
                 "object": true,
                 "properties": [
                     {
@@ -62,7 +106,7 @@
                         "designable": true,
                         "final": false,
                         "index": 0,
-                        "lineNumber": 17,
+                        "lineNumber": 21,
                         "name": "rotation1Angle",
                         "notify": "rot1AngleChanged",
                         "read": "rotation1Angle",
@@ -78,7 +122,7 @@
                         "designable": true,
                         "final": false,
                         "index": 1,
-                        "lineNumber": 18,
+                        "lineNumber": 22,
                         "name": "rotation2Angle",
                         "notify": "rot2AngleChanged",
                         "read": "rotation2Angle",
@@ -94,7 +138,7 @@
                         "designable": true,
                         "final": false,
                         "index": 2,
-                        "lineNumber": 19,
+                        "lineNumber": 23,
                         "name": "rotation3Angle",
                         "notify": "rot3AngleChanged",
                         "read": "rotation3Angle",
@@ -110,7 +154,7 @@
                         "designable": true,
                         "final": false,
                         "index": 3,
-                        "lineNumber": 20,
+                        "lineNumber": 24,
                         "name": "rotation4Angle",
                         "notify": "rot4AngleChanged",
                         "read": "rotation4Angle",
@@ -126,7 +170,7 @@
                         "designable": true,
                         "final": false,
                         "index": 4,
-                        "lineNumber": 21,
+                        "lineNumber": 25,
                         "name": "suctionCup",
                         "notify": "suctionCupChanged",
                         "read": "suctionCup",
@@ -143,7 +187,7 @@
                         "designable": true,
                         "final": false,
                         "index": 5,
-                        "lineNumber": 22,
+                        "lineNumber": 26,
                         "name": "status",
                         "notify": "statusChanged",
                         "read": "status",
@@ -159,43 +203,72 @@
                     {
                         "access": "public",
                         "index": 0,
-                        "lineNumber": 47,
+                        "lineNumber": 54,
                         "name": "rot1AngleChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 1,
-                        "lineNumber": 48,
+                        "lineNumber": 55,
                         "name": "rot2AngleChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 2,
-                        "lineNumber": 49,
+                        "lineNumber": 56,
                         "name": "rot3AngleChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 3,
-                        "lineNumber": 50,
+                        "lineNumber": 57,
                         "name": "rot4AngleChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 4,
-                        "lineNumber": 51,
+                        "lineNumber": 58,
                         "name": "suctionCupChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 5,
-                        "lineNumber": 52,
+                        "lineNumber": 59,
                         "name": "statusChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 6,
+                        "lineNumber": 63,
+                        "name": "onSocketConnected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 7,
+                        "lineNumber": 64,
+                        "name": "onSocketReadyRead",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "socketError",
+                                "type": "QAbstractSocket::SocketError"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 65,
+                        "name": "onSocketErrorOccurred",
                         "returnType": "void"
                     }
                 ],

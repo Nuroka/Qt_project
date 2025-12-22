@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 92,
                             "functionName": "implicitWidth",
                             "line": 17,
                             "message": "Cannot retrieve a non-object type by ID: toggleText"

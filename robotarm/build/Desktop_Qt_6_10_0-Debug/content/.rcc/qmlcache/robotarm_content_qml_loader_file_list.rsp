@@ -13,6 +13,7 @@
 /content/RoboticArm.ui.qml
 /content/Toggle.ui.qml
 /content/DobotArm.ui.qml
+/content/MainScreenPage.qml
 /content/meshes/magicianBase/MagicianBase.qml
 /content/meshes/magicianLink1/MagicianLink1.qml
 /content/meshes/magicianLink2/MagicianLink2.qml

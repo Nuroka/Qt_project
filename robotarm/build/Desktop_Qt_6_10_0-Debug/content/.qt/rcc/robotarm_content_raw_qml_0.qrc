@@ -7,6 +7,7 @@
     <file alias="RoboticArm.ui.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/RoboticArm.ui.qml</file>
     <file alias="Toggle.ui.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/Toggle.ui.qml</file>
     <file alias="DobotArm.ui.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/DobotArm.ui.qml</file>
+    <file alias="MainScreenPage.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/MainScreenPage.qml</file>
     <file alias="meshes/magicianBase/MagicianBase.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/meshes/magicianBase/MagicianBase.qml</file>
     <file alias="meshes/magicianLink1/MagicianLink1.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/meshes/magicianLink1/MagicianLink1.qml</file>
     <file alias="meshes/magicianLink2/MagicianLink2.qml">/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/meshes/magicianLink2/MagicianLink2.qml</file>

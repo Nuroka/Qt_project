@@ -8,7 +8,11 @@
 
 #include <QObject>
 #include <qqmlregistration.h>
-
+#include <QTcpSocket>
+#include <QByteArray>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
 //! [class definition]
 class Backend : public QObject
 {
@@ -43,6 +47,9 @@ public:
     QString status() const;
     QBindable<QString> bindableStatus() const;
 
+    // Qt <-> ros2 연결하는 함수
+    Q_INVOKABLE void connectToRos(const QString &host, quint16 port);
+    Q_INVOKABLE void moveDobotTo(double j1, double j2, double j3, double j4);
 signals:
     void rot1AngleChanged();
     void rot2AngleChanged();
@@ -50,6 +57,12 @@ signals:
     void rot4AngleChanged();
     void suctionCupChanged();
     void statusChanged();
+
+// 통신을 위한 소켓 슬롯
+private slots:
+    void onSocketConnected();
+    void onSocketReadyRead();
+    void onSocketErrorOccurred(QAbstractSocket::SocketError socketError);
 
 private:
     AnimatedParam m_rotation1Angle;
@@ -61,7 +74,11 @@ private:
     Q_OBJECT_BINDABLE_PROPERTY(Backend, QString, m_status, &Backend::statusChanged)
     QProperty<bool> m_isCollision;
 
+    QTcpSocket m_socket;
+    QByteArray m_buffer;
+
     void detectCollision();
+    void processJsonLine(const QByteArray &line);
 };
 
 #endif // BACKEND_H

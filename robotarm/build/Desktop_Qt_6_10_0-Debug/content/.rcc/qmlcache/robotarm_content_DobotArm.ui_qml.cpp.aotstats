@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 150,
                             "functionName": "scale",
                             "line": 37,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector3d, returning QVariant -> QVector3D stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 17,
+                            "durationMicroseconds": 20,
                             "functionName": "y",
                             "line": 50,
                             "message": "Cannot access value for name link1OffsetY"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 45,
+                            "durationMicroseconds": 49,
                             "functionName": "z",
                             "line": 51,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 12,
+                            "durationMicroseconds": 13,
                             "functionName": "y",
                             "line": 60,
                             "message": "Cannot access value for name link2OffsetY"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 35,
+                            "durationMicroseconds": 37,
                             "functionName": "z",
                             "line": 61,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 11,
+                            "durationMicroseconds": 12,
                             "functionName": "y",
                             "line": 70,
                             "message": "Cannot access value for name link3OffsetY"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 34,
                             "functionName": "z",
                             "line": 71,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 12,
+                            "durationMicroseconds": 13,
                             "functionName": "y",
                             "line": 80,
                             "message": "Cannot access value for name toolOffsetY"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 42,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 33,
                             "functionName": "z",
                             "line": 81,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 12,
+                            "durationMicroseconds": 13,
                             "functionName": "y",
                             "line": 90,
                             "message": "Cannot access value for name tipOffsetY"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 32,
                             "functionName": "x",
                             "line": 92,
                             "message": ""
