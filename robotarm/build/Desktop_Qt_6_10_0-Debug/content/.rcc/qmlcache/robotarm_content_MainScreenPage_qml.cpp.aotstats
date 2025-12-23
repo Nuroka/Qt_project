@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 78,
                             "functionName": "backendProp",
                             "line": 18,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 113,
+                            "durationMicroseconds": 123,
                             "functionName": "onCompleted",
                             "line": 21,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 69,
                             "functionName": "onPressedChanged",
                             "line": 28,
                             "message": "Cannot load property pressed from MainScreen::rotation1Slider with type ."
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 11,
+                            "durationMicroseconds": 12,
                             "functionName": "target",
                             "line": 41,
                             "message": "cannot convert from MainScreen::rotation2Slider with type  to QObject"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 58,
                             "functionName": "onPressedChanged",
                             "line": 42,
                             "message": "Cannot load property pressed from MainScreen::rotation2Slider with type ."
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 9,
+                            "durationMicroseconds": 11,
                             "functionName": "target",
                             "line": 55,
                             "message": "cannot convert from MainScreen::rotation3Slider with type  to QObject"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 49,
+                            "durationMicroseconds": 54,
                             "functionName": "onPressedChanged",
                             "line": 56,
                             "message": "Cannot load property pressed from MainScreen::rotation3Slider with type ."
@@ -72,18 +72,18 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 41,
                             "functionName": "target",
                             "line": 69,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 16,
-                            "durationMicroseconds": 47,
-                            "functionName": "value",
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 49,
+                            "functionName": "onCheckedChanged",
                             "line": 71,
-                            "message": ""
+                            "message": "Cannot load property checked from MainScreen::clawToggle with type ."
                         }
                     ],
                     "filePath": "/home/ssafy/Qt/Examples/Qt-6.10.0/demos/robotarm/content/MainScreenPage.qml"

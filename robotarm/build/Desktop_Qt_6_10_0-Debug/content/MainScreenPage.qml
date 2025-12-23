@@ -31,7 +31,7 @@ MainScreen {
                     backend.rotation1Angle,
                     backend.rotation2Angle,
                     backend.rotation3Angle,
-                    backend.rotation4Angle
+                    backend.suctionCup
                 )
             }
         }
@@ -45,7 +45,7 @@ MainScreen {
                     backend.rotation1Angle,
                     backend.rotation2Angle,
                     backend.rotation3Angle,
-                    backend.rotation4Angle
+                    backend.suctionCup
                 )
             }
         }
@@ -59,15 +59,20 @@ MainScreen {
                     backend.rotation1Angle,
                     backend.rotation2Angle,
                     backend.rotation3Angle,
-                    backend.rotation4Angle
+                    backend.suctionCup
                 )
             }
         }
     }
-    // 0 또는 90
-    Binding {
+
+    Connections {
         target: root.clawToggle
-        property: "checked"
-        value: backend.suctionCup === 0
+
+        function onCheckedChanged() {
+            backend.moveDobotTo(
+                backend.setSuctionEnabled(root.clawToggle.checked)
+            )
+        }
     }
+
 }

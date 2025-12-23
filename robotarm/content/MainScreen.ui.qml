@@ -52,8 +52,8 @@ Pane {
             Layout.preferredWidth: root.sliderWidth
             Layout.minimumWidth: 160
             labelText: "Rotation 1"
-            from: -90
-            to: 89
+            from: -120
+            to: 120
             // Backend의 rotation2Angle을 항상 따라가도록 (ROS 수신 데이터 반영)
             value: backendProp.rotation1Angle
 
@@ -66,8 +66,8 @@ Pane {
             Layout.preferredWidth: root.sliderWidth
             Layout.minimumWidth: 160
             labelText: "Rotation 2"
-            from: -90
-            to: 89
+            from: -5
+            to: 35
             // Backend의 rotation2Angle을 항상 따라가도록 (ROS 수신 데이터 반영)
             value: backendProp.rotation2Angle
 
@@ -80,8 +80,8 @@ Pane {
             Layout.preferredWidth: root.sliderWidth
             Layout.minimumWidth: 160
             labelText: "Rotation 3"
-            from: -90
-            to: 89
+            from: -15
+            to: 90
             value: backendProp.rotation3Angle
             onMoved: backendProp.rotation3Angle = value
         }
@@ -95,6 +95,8 @@ Pane {
         anchors.bottomMargin: 30
     }
 
+
+
     GridLayout {
         id: buttonsRow
         columns: 2
@@ -103,69 +105,6 @@ Pane {
         rowSpacing: 8
         anchors.bottom: clawToggle.top
         anchors.bottomMargin: 30
-
-        Button {
-            id: pose1
-            text: qsTr("Pose 1")
-            Layout.preferredWidth: root.buttonRowWidth / 2
-            Layout.minimumWidth: root.buttonMinWidth
-            Layout.preferredHeight: 45
-
-            Connections {
-                target: pose1
-                function onClicked() {
-                    rotation1Slider.value = 60
-                    rotation2Slider.value = 90
-                    rotation3Slider.value = 145
-
-                    backendProp.rotation1Angle = 60
-                    backendProp.rotation2Angle = 90
-                    backendProp.rotation3Angle = 145
-                }
-            }
-        }
-
-        Button {
-            id: pose2
-            text: qsTr("Pose 2")
-            Layout.preferredWidth: root.buttonRowWidth / 2
-            Layout.minimumWidth: root.buttonMinWidth
-            Layout.preferredHeight: 45
-
-            Connections {
-                target: pose2
-                function onClicked() {
-                    rotation1Slider.value = 45
-                    rotation2Slider.value = 45
-                    rotation3Slider.value = 60
-
-                    backendProp.rotation1Angle = 45
-                    backendProp.rotation2Angle = 45
-                    backendProp.rotation3Angle = 60
-                }
-            }
-        }
-
-        Button {
-            id: pose3
-            text: qsTr("Pose 3")
-            Layout.preferredWidth: root.buttonRowWidth / 2
-            Layout.minimumWidth: root.buttonMinWidth
-            Layout.preferredHeight: 45
-
-            Connections {
-                target: pose3
-                function onClicked() {
-                    rotation2Slider.value = -60
-                    rotation3Slider.value = -45
-                    rotation4Slider.value = -180
-
-                    backendProp.rotation2Angle = -60
-                    backendProp.rotation3Angle = -45
-                    backendProp.rotation4Angle = -180
-                }
-            }
-        }
 
         Button {
             id: resetPose
@@ -185,7 +124,7 @@ Pane {
                     backendProp.rotation1Angle = 0
                     backendProp.rotation2Angle = 0
                     backendProp.rotation3Angle = 0
-                    backendProp.suctionCup = 90
+                    //backendProp.suctionCup = 90
                 }
             }
         }

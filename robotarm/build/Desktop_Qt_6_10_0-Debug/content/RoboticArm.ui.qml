@@ -63,7 +63,7 @@ Node {
                 Node {
                     id: joint2
                     // Joint 1과 위치가 같다면 y:0
-                    eulerRotation.z: rootNode.rotation2
+                    eulerRotation.z: -rootNode.rotation2
 
                     MagicianLink2 { id: link2 }
 
@@ -76,7 +76,7 @@ Node {
                         Node {
                             id: joint3_Axis
                             // 여기서 회전을 줍니다. 이 회전은 부모(Link2)의 방향을 기준으로 적용됩니다.
-                            eulerRotation.z: rootNode.rotation3
+                            eulerRotation.z: -rootNode.rotation3
                             x:0.03
                             y:0.15
                             z:0
@@ -99,7 +99,7 @@ Node {
                                     x: 0.15
                                     y: 0.075 * -1
                                     z: 0
-                                    eulerRotation.z: -rootNode.rotation3 - rootNode.rotation2
+                                    eulerRotation.z: rootNode.rotation3 + rootNode.rotation2
 
                                     MagicianLink4 {
                                         id: link4

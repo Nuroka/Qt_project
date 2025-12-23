@@ -198,3 +198,23 @@ void Backend::moveDobotTo(double j1, double j2, double j3, double j4)
 
     qDebug() << "Sent command to Dobot:" << data;
 }
+
+void Backend::setSuctionEnabled(bool enabled)
+{
+    if (m_socket.state() != QAbstractSocket::ConnectedState) {
+        qWarning() << "Not connected to ROS bridge!";
+        return;
+    }
+
+    QJsonObject json;
+    json["type"] = "suction";
+    json["enable_suction"] = enabled;
+
+    QJsonDocument doc(json);
+    QByteArray data = doc.toJson(QJsonDocument::Compact) + "\n";
+
+    m_socket.write(data);
+    m_socket.flush();
+
+    qDebug() << "Sent suction command:" << data;
+}

@@ -50,6 +50,8 @@ public:
     // Qt <-> ros2 연결하는 함수
     Q_INVOKABLE void connectToRos(const QString &host, quint16 port);
     Q_INVOKABLE void moveDobotTo(double j1, double j2, double j3, double j4);
+    Q_INVOKABLE void setSuctionEnabled(bool enabled);
+
 signals:
     void rot1AngleChanged();
     void rot2AngleChanged();
